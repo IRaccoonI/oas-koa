@@ -1,0 +1,40 @@
+{
+  "name": "oas-koa",
+  "version": "1.0.0",
+  "description": "Helper for koa routes via openapi files",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./build && env-cmd -f ../.env node .",
+    "dev": "cd ./src && env-cmd -f ../.env ts-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IRaccoonI/oas-koa.git"
+  },
+  "keywords": [
+    "koa",
+    "openapi",
+    "validator"
+  ],
+  "author": "IRaccoonI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IRaccoonI/oas-koa/issues"
+  },
+  "homepage": "https://github.com/IRaccoonI/oas-koa#readme",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "openapi-typescript": "^4.0.1",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/koa-bodyparser": "^4.3.1",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-json-error": "^3.1.2"
+  }
+}
